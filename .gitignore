@@ -30,9 +30,11 @@ hs_err_pid*
 .idea/
 /out/
 
+# gradle
+/.gradle
+
 # mpeltonen/sbt-idea plugin
 .idea_modules/
 
 # Java class files
-*.class
 **/target

@@ -1,17 +1,18 @@
 <idea-plugin>
-  <id>com.your.company.unique.plugin.id</id>
-  <name>Plugin display name here</name>
+  <id>com.seeyon.pullDynamicCode.id</id>
+  <name>PullDynamicCode</name>
   <version>1.0</version>
-  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+  <vendor email="chenyangyf@seeyon.com" url="http://www.seeyon.com">Seeyon</vendor>
 
   <description><![CDATA[
-      Enter short description for your plugin here.<br>
-      <em>most HTML tags may be used</em>
+      更加方便地拉取运行态动态代码.<br>
+      <em>支持自主添加拉取地址、代码存放路径</em>
+      <em>仅需输入应用 ID 即可拉取对应动态代码</em>
     ]]></description>
 
   <change-notes><![CDATA[
-      Add change notes here.<br>
-      <em>most HTML tags may be used</em>
+      动态代码拉取插件<br>
+      <em>测试版本 0.0.1</em>
     ]]>
   </change-notes>
 
@@ -28,6 +29,10 @@
 
   <actions>
     <!-- Add your actions here -->
+    <action id="com.seeyon.firstplugin.FirstPluginAction" class="com.seeyon.firstplugin.FirstPluginAction" text="测试" description="测试描述">
+      <add-to-group group-id="ToolsMenu" anchor="first"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="ctrl I"/>
+    </action>
   </actions>
 
 </idea-plugin>
