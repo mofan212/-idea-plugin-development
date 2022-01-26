@@ -22,6 +22,7 @@ public class FirstPluginAction extends AnAction {
 
     @Override
     public void actionPerformed(@NotNull AnActionEvent e) {
+        // 第三个参数表示是否记录日志（右下角 EventLog）
         NotificationGroup group = new NotificationGroup("firstplugin_id", NotificationDisplayType.BALLOON, true);
         Notification notification = group.createNotification("点击测试", MessageType.INFO);
         Notifications.Bus.notify(notification);
