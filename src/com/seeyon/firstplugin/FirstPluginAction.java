@@ -10,7 +10,7 @@ import com.intellij.openapi.ui.MessageType;
 import org.jetbrains.annotations.NotNull;
 
 /**
- * @author cheny
+ * @author mofan
  * @date 2022/1/25 20:30
  */
 public class FirstPluginAction extends AnAction {

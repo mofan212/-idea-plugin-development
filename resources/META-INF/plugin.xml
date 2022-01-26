@@ -1,17 +1,17 @@
 <idea-plugin>
-  <id>com.seeyon.pullDynamicCode.id</id>
-  <name>PullDynamicCode</name>
+  <id>cy.mofan@foxmail.com</id>
+  <name>Mofan Test</name>
   <version>1.0</version>
-  <vendor email="chenyangyf@seeyon.com" url="http://www.seeyon.com">Seeyon</vendor>
+  <vendor email="cy.mofan@foxmail.com" url="https://mofan212.gitee.io">Mofan</vendor>
 
   <description><![CDATA[
-      更加方便地拉取运行态动态代码.<br>
-      <em>支持自主添加拉取地址、代码存放路径</em>
-      <em>仅需输入应用 ID 即可拉取对应动态代码</em>
+      IDEA 插件开发学习<br>
+      <em>IDEA 插件开发的基本操作与代码编写</em>
+      <em>为后续编写自己的插件打下基础</em>
     ]]></description>
 
   <change-notes><![CDATA[
-      动态代码拉取插件<br>
+      IDEA 插件开发学习<br>
       <em>测试版本 0.0.1</em>
     ]]>
   </change-notes>
