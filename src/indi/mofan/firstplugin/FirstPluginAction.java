@@ -1,4 +1,4 @@
-package com.seeyon.firstplugin;
+package indi.mofan.firstplugin;
 
 import com.intellij.notification.Notification;
 import com.intellij.notification.NotificationDisplayType;

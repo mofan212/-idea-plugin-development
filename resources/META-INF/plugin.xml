@@ -16,6 +16,7 @@
     ]]>
   </change-notes>
 
+
   <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
   <idea-version since-build="173.0"/>
 
@@ -29,10 +30,16 @@
 
   <actions>
     <!-- Add your actions here -->
-    <action id="com.seeyon.firstplugin.FirstPluginAction" class="com.seeyon.firstplugin.FirstPluginAction" text="测试" description="测试描述">
+    <action id="indi.mofan.firstplugin.FirstPluginAction" class="indi.mofan.firstplugin.FirstPluginAction" text="测试" description="测试描述">
       <add-to-group group-id="ToolsMenu" anchor="first"/>
       <keyboard-shortcut keymap="$default" first-keystroke="ctrl I"/>
     </action>
   </actions>
+
+  <application-components>
+    <component>
+      <implementation-class>indi.mofan.chickensoup.MyApplicationComponent</implementation-class>
+    </component>
+  </application-components>
 
 </idea-plugin>
