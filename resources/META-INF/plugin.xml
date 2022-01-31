@@ -34,6 +34,9 @@
       <add-to-group group-id="ToolsMenu" anchor="first"/>
       <keyboard-shortcut keymap="$default" first-keystroke="ctrl I"/>
     </action>
+    <action id="PopupAction_ID" class="indi.mofan.markbook.action.PopupAction" text="添加MB笔记" description="添加笔记">
+      <add-to-group group-id="EditorPopupMenu" anchor="first"/>
+    </action>
   </actions>
 
   <application-components>
