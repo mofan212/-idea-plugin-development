@@ -25,7 +25,7 @@
   <depends>com.intellij.modules.platform</depends>
 
   <extensions defaultExtensionNs="com.intellij">
-    <!-- Add your extensions here -->
+    <toolWindow factoryClass="indi.mofan.markbook.window.NoteListWindowFactory" id="NoteWindow" anchor="right"/>
   </extensions>
 
   <actions>
