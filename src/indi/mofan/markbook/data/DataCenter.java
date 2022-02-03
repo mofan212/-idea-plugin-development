@@ -23,4 +23,12 @@ public class DataCenter {
      * 第一个参数表示表格中的数据，第二个参数表示表格的表头
      */
     public static final DefaultTableModel TABLE_MODEL = new DefaultTableModel(null, TABLE_HEAD);
+
+    /**
+     * 笔记列表数据清空
+     */
+    public static void reset() {
+        NODE_LIST.clear();
+        TABLE_MODEL.setDataVector(null, TABLE_HEAD);
+    }
 }

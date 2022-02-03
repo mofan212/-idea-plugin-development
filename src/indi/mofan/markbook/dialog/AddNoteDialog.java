@@ -1,6 +1,7 @@
 package indi.mofan.markbook.dialog;
 
 import com.intellij.openapi.ui.DialogWrapper;
+import com.intellij.openapi.ui.Messages;
 import com.intellij.ui.EditorTextField;
 import indi.mofan.markbook.data.DataCenter;
 import indi.mofan.markbook.data.DataConvert;
@@ -51,6 +52,8 @@ public class AddNoteDialog extends DialogWrapper {
             NoteData noteData = new NoteData(title, mark, DataCenter.SELECT_TEXT, DataCenter.FILE_NAME, fileType);
             DataCenter.NODE_LIST.add(noteData);
             DataCenter.TABLE_MODEL.addRow(DataConvert.convert(noteData));
+            Messages.showMessageDialog("添加成功", "操作结果", Messages.getInformationIcon());
+            AddNoteDialog.this.dispose();
         });
         jPanel.add(jButton);
         return jPanel;
